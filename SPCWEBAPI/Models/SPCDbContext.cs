@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SPCWebAPI.Models;
+using SPCWEBAPI.Models;
 
-namespace SPCWebAPI.Models
+namespace SPCWEBAPI.Data
 {
     public class SPCDbContext : DbContext
     {
@@ -10,5 +12,6 @@ namespace SPCWebAPI.Models
         public DbSet<ManufacturingPlant> ManufacturingPlants { get; set; }
         public DbSet<Pharmacy> Pharmacies { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Drug> Drugs { get; set; }
     }
 }

@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SPCWebAPI.Models;
+using SPCWEBAPI.Data;
+
 
 #nullable disable
 

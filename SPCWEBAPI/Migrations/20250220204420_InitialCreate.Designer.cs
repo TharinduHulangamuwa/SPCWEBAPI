@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SPCWebAPI.Models;
+using SPCWEBAPI.Data;
+
 
 #nullable disable
 

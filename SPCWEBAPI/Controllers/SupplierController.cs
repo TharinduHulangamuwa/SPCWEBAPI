@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SPCWebAPI.Models;
 using System.Linq;
+using SPCWEBAPI.Data;
+
 
 namespace SPCWebAPI.Controllers
 {
